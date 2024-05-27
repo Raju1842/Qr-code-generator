@@ -1,0 +1,29 @@
+@media(min-width: 768px)and (max-width: 979px) {
+    body{
+        background-color: black;
+    }
+}
+@media(max-width: 979px){
+    #qr_container{
+        width: 350px;
+    }
+   
+}
+@media(min-width:400px) and (max-width:500px) {
+    h1{
+        color: blue;
+    }
+}
+body{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+}
+img{
+    position: relative;
+    top: 100px;
+    background-color: chocolate;
+}
